@@ -5,8 +5,7 @@
   grid-template-columns: minmax(288px, 460px) minmax(min-content, 484px);
   gap: 0;
   grid-template-areas:
-      "footerlinks copyright"
-     ;
+      "footerlinks copyright";
   justify-content: space-between;
 
   padding-bottom: 24px;
