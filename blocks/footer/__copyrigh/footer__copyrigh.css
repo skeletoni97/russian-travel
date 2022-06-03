@@ -1,0 +1,20 @@
+
+.footer__copyrigh {
+  justify-self: end;
+  align-self: center;
+  grid-area: copyright;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+@media screen and (max-width: 767px) {
+  .footer__copyrigh {
+    justify-self: start;
+    padding-bottom: 24px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

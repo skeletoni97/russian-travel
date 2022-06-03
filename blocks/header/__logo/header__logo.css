@@ -1,0 +1,14 @@
+.header__logo {
+  width: 176px;
+  height: 52px;
+  justify-items: start;
+  background: url(../../../images/__logo.svg);
+}
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+  height: 42px;
+  background: url(../../../images/header-logo-min.svg);
+  justify-items: flex-start;
+  }
+}
