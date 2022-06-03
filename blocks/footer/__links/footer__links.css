@@ -4,8 +4,6 @@
   margin: 0;
   display: flex;
   grid-area: footerlinks;
-
-
 }
 @media screen and (max-width: 767px) {
   .footer__links {
