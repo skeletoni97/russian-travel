@@ -1,7 +1,7 @@
 
 .footer__copyrigh {
   justify-self: end;
-  align-self: center;
+  margin: 0;
   grid-area: copyright;
   color: #FFFFFF;
   font-weight: 400;

@@ -1,5 +1,4 @@
 .header__lang-link {
-  color: #FFFFFF;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
@@ -7,8 +6,11 @@
   line-height: 24px;
   margin-left: 18px;
   padding-bottom: 6px;
-  text-align: right;
-  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.header__lang-link:hover {
+  transition:0.2s linear;
+  opacity: 0.3;
 }
 @media screen and (max-width: 767px) {
   .header__lang-link {
@@ -20,8 +22,5 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    text-align: right;
-    text-decoration-line: underline;
-
   }
 }

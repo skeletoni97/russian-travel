@@ -1,12 +1,14 @@
 .header__links {
   display: flex;
-  align-items: end;
-  height: 52px;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 15px;
 }
 @media screen and (max-width: 767px) {
   .header__links {
     display: flex;
     align-items: center;
-    height: 52px;
+    list-style-type: none;
+    padding-top: 0;
   }
 }
