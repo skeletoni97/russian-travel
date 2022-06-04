@@ -13,9 +13,9 @@
 }
 
 @media screen and (max-width: 1023px) {
- .photo-grid__items {
+  .photo-grid__items {
     display: grid;
-    grid-template-columns:  minmax(352px, 1fr) minmax(352px, 1fr);
+    grid-template-columns: minmax(352px, 1fr) minmax(352px, 1fr);
     gap: 16px;
   }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 767px) {
   .photo-grid__items {
     display: grid;
-    grid-template-columns:  minmax(288px, 1fr);
+    grid-template-columns: minmax(288px, 1fr);
     gap: 12px;
   }
 }

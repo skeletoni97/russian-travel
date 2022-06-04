@@ -5,7 +5,7 @@
   grid-template-columns: minmax(288px, 550px) minmax(min-content, 484px);
   gap: 0;
   grid-template-areas:
-  "footerlinks copyright";
+    "footerlinks copyright";
   justify-content: space-between;
   padding-bottom: 24px;
 }
@@ -29,7 +29,7 @@
     margin-top: 64px;
     width: calc(100% - 32px);
     grid-template-areas:
-    "footerlinks"
-    "copyright";
+      "footerlinks"
+      "copyright";
   }
 }

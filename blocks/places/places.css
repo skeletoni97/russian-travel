@@ -13,7 +13,6 @@
   .places {
     width: calc(100% - 48px);
     margin: auto;
-    padding: auto;
   }
 }
 
@@ -21,6 +20,5 @@
   .places {
     width: calc(100%);
     margin: auto;
-    padding: auto;
   }
 }
