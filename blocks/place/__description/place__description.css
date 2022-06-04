@@ -2,6 +2,7 @@
   grid-area: paragraph;
   min-width: 240px;
 }
+
 @media screen and (max-width: 767px) {
   .place__description {
     margin-top: 32px;

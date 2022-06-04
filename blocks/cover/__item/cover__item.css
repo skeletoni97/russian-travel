@@ -12,15 +12,16 @@
   z-index: 0;
   overflow: hidden;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media screen and (max-width: 1279px) {
   .cover__item {
     min-height: 62.5vw;
   }
 }
-.cover__item::before{
-  content:  "";
+
+.cover__item::before {
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -28,11 +29,12 @@
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #2a2c2f;
   z-index: -1;
   opacity: 0.8;
   transition: ease-in-out;
 }
+
 .cover__item:hover:before {
-opacity: 0.5;
+  opacity: 0.5;
 }

@@ -1,15 +1,17 @@
 .footer__link {
-  margin-right: 18px;
+  margin-right: 14px;
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
 }
+
 .footer__link:hover {
   transition:0.2s linear;
-  opacity: 0.3;
+  opacity: 0.8;
 }
+
 @media screen and (max-width: 767px) {
   .footer__link {
     margin-bottom: 32px;
