@@ -7,12 +7,6 @@
   margin-top: 92px;
 }
 
-@media screen and (max-width: 1279px) {
-  .intro__title {
-    margin-top: 92px;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .intro__title {
     margin-top: 88px;
