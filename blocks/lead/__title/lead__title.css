@@ -16,9 +16,7 @@
 @media screen and (max-width: 767px) {
   .lead__title {
     min-width: 288px;
-    text-align: center;
-    margin: 39px auto 0;
-    font-weight: 900;
+    margin: 48px auto 0;
     font-size: 40px;
     line-height: 44px;
   }

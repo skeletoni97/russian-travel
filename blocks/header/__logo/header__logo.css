@@ -9,7 +9,7 @@
   .header__logo {
     width: 142px;
     height: 42px;
-    background: url(../../../images/header-logo-min.svg);
     justify-items: flex-start;
+    background-size: 100%;
   }
 }

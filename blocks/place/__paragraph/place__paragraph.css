@@ -6,13 +6,12 @@
   margin-bottom: 26px;
 }
 
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:last-of-type {
   margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
     margin-bottom: 25px;
@@ -21,9 +20,6 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-    margin-bottom: 25px;
+    padding-right: 10px;
   }
 }

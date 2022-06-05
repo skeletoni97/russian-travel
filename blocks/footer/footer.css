@@ -19,13 +19,13 @@
 @media screen and (max-width: 1023px) {
   .footer {
     width: calc(100% - 48px);
+    grid-template-columns: minmax(288px, 550px) minmax(min-content, 200px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
     grid-template-columns: minmax(288px, 460px) minmax(min-content, 484px);
-    gap: 0;
     margin-top: 64px;
     width: calc(100% - 32px);
     grid-template-areas:
