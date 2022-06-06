@@ -23,14 +23,14 @@
     margin: 71px auto 0;
   }
 
-  .place:nth-of-type(5) {
+  .place:last-of-type {
     margin: 75px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    grid-template-columns: minmax(288px, 460px) minmax(min-content, 484px);
+    grid-template-columns: minmax(288px, 600px);
     gap: 0;
     grid-template-areas:
       "title"
@@ -40,7 +40,7 @@
     margin: 48px auto 41px;
   }
 
-  .place:nth-of-type(5) {
-    margin: 48px auto 41px;
+  .place:last-of-type {
+    margin: 48px auto 66px;
   }
 }
