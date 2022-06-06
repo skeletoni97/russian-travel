@@ -3,7 +3,7 @@
   align-items: end;
   list-style-type: none;
   margin: 0;
-  padding-bottom: 7px;
+  padding: 0 0 7px;
 }
 
 @media screen and (max-width: 767px) {
